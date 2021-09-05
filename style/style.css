@@ -5,6 +5,11 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+/* body
+{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(221,253,45,0.9671218829328606) 100%);
+} */
 .Main
 {
     position:relative;
@@ -73,7 +78,7 @@ padding: 1%;
 .buttonDiv
 {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 .buttonDiv div
@@ -83,7 +88,7 @@ padding: 1%;
 .buttonDiv div button
 {
     margin-top: 5%;
-    width:110px;
+    width:140px;
     height:60%;
     cursor: pointer;
     font-size: 1.5rem;
@@ -103,9 +108,62 @@ background: linear-gradient(to left, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Fi
 color: white;
 
 }
+.congratulation
+{
+    text-align: center;
+}
+.congratulation h1
+{
+    margin-top: 20%;
+    text-transform: uppercase;
+    text-shadow: 3px 1px 2px rgba(255,0,0,1);
+    font-weight: bold;
+}
+.congratulation b
+{
+    font-size: 30px;
+    text-shadow: 3px 1px 2px rgba(255,0,0,1);
+
+}
+.newdiv
+{
+margin-top: 0;
+font-size: 10px;
+}
 .elm
 {
-    border:2px solid white;
+    border:1px solid white;
+    background-image: url("../image/rockey.jpg");
+    box-sizing: border-box;
+    float: left;
+    cursor: move;
+}
+.elm1{background-position:0px 0px;}
+.elm2{background-position:-141px 0px;}
+.elm3{background-position:-282 0px;}
+.elm4{background-position:-423 0px;}
+.elm5{ background-position:0px -141px;}
+.elm6{background-position:-141px -141px;}
+.elm7{background-position:-282px -141px;}
+.elm8{background-position:-423 -141px;}
+.elm9{background-position:0px -282px;}
+.elm10{background-position:-141px -282px;}
+.elm11{background-position:-282px -282px;}
+.elm12{background-position:-423px -282px;}
+.elm13{background-position:0px -423px;}
+.elm14{background-position:-141px -423px;}
+.elm15{background-position:-282px -423px;}
+.elm16{background-position:-423px -423px;}
+
+#exit
+{
+    width:180px;
+    margin-top: 3%;
+    text-transform: capitalize;
+}
+#btn2
+{
+    margin-top: 0px;
 }
 
 
