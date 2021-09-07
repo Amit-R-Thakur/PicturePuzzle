@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
             SetUPDiv.appendChild(buttonDiv);
             document.querySelector("#Reset").addEventListener("click", () => {
                 background=randomImage(imageList);
-                gameDiv.style.backgroundImage=`url(${background})`;
+                
                 grid.sort(function (a, b) { return 0.5 - Math.random() });
                 document.querySelectorAll(".elm").forEach((elem, inx) => {
                     elem.classList = `elm${grid[inx]} elm`;
