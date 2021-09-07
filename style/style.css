@@ -133,7 +133,6 @@ font-size: 10px;
 .elm
 {
     border:1px solid white;
-    background-image: url("../image/rockey.jpg");
     box-sizing: border-box;
     float: left;
     cursor: move;
