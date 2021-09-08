@@ -5,11 +5,11 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-/* body
+body
 {
     background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(221,253,45,0.9671218829328606) 100%);
-} */
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(222, 253, 45, 0.596) 100%);
+}
 .Main
 {
     position:relative;
